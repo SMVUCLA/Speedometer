@@ -42,6 +42,7 @@ void speed() {
   rps = 100.0/numLoops; //numLoops is in 10 millis
   linear_speed = 2 * 3.14159 * wheelRadius * rps; //in m/s
   linear_speed = linear_speed * 0.000621371 * 3600;// in mph (speed * miles/meter * seconds/hour)
+  linear_speed = linear_speed + 0.5; //adding 0.5 will round up from 0.5 once truncated
   linear_speed_int = (int) linear_speed; //cast as an int
 
   first_value = linear_speed_int / 10; //calculates the first digit
