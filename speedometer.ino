@@ -88,9 +88,9 @@ void speed() {
 
 void loop() {
   delay(10);
-  numLoops ++;
-  //if the number of loops surpasses that which result from 1 mph, change the speed to zero
-    if(numLoops > loopsOne)
+  numLoops++;
+  //if the number of loops surpasses that which results from 1 mph, change the speed to zero
+  if(numLoops > loopsOne)
   {
     linear_speed = 0;
     digitalWrite(BCDPin1A, LOW); digitalWrite(BCDPin1B, LOW); digitalWrite(BCDPin1C, LOW); digitalWrite(BCDPin1D, LOW);
