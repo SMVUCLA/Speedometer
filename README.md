@@ -1,4 +1,4 @@
 ## Speedometer
-Nickname: Speedy McSpeedFace
+Nickname: Speedy (McSpeedFace) McQueen
 
 Brought to you by GV Electrical.
